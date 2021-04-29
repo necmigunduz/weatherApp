@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+#bg_img {
+    background-image: url('./assets/bg_img.jpg');
+}
+
 .header {
     font-size: 60px;
     font-family: 'Anton', sans-serif;
+}
+
+#description {
+    font-weight: bold;
+    margin: 15px;
+}
+
+span {
+    color: rgb(15, 21, 73);
 }
