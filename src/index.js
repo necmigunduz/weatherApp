@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
 const container = document.querySelector('.container');
 
 const name = document.querySelector('.name');
@@ -45,10 +43,10 @@ function createForm() {
       `http://api.openweathermap.org/data/2.5/weather?q=${input.value}&units=metric&APPID=8362038b9b4953c5bf68a1d7c665d255`,
       { mode: 'cors' },
     )
-      .then(function (response) { // disable-eslint-line
+      .then(function (response) { // eslint-disable-line
         return response.json();
       })
-      .then(function (data) { // disable-eslint-line
+      .then(function (data) { // eslint-disable-line
         input.value = null;
 
         description.innerHTML = `${data.weather[0].description}`.toUpperCase();
