@@ -32,7 +32,7 @@ function createForm() {
   label.textContent = 'Enter location name';
   const input = document.createElement('input');
   input.setAttribute('class', 'city form-control');
-  input.setAttribute('placeholder','Enter a city or a country name');
+  input.setAttribute('placeholder', 'Enter a city or a country name');
   input.setAttribute('id', 'location');
   const submit = document.createElement('button');
   submit.textContent = 'Submit';
