@@ -1,0 +1,42 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --mode development --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necmigunduz/weatherApp.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/necmigunduz/weatherApp/issues"
+  },
+  "homepage": "https://github.com/necmigunduz/weatherApp#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.4",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^7.0.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "lodash": "^4.17.21"
+  },
+  "main": "webpack.config.js",
+  "engines": {
+    "node": "15.8.0"
+  }
+}
