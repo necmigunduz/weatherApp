@@ -1,5 +1,5 @@
 {
-  "name": "weatherApp",
+  "name": "weatherapp",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
@@ -13,7 +13,9 @@
     "type": "git",
     "url": "git+https://github.com/necmigunduz/weatherApp.git"
   },
-  "keywords": [],
+  "keywords": [
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -32,5 +34,9 @@
   "dependencies": {
     "bootstrap": "^4.6.0",
     "lodash": "^4.17.21"
+  },
+  "main": "webpack.config.js",
+  "engines": {
+    "node": "15.8.0"
   }
 }
