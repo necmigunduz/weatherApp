@@ -1,3 +1,5 @@
+const APIKEY = process.env.API_KEY;
+
 const container = document.querySelector('.container');
 
 const name = document.querySelector('.name');
@@ -40,7 +42,7 @@ function createForm() {
     e.preventDefault();
 
     fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${input.value}&units=metric&APPID=8362038b9b4953c5bf68a1d7c665d255`,
+      `https://api.openweathermap.org/data/2.5/weather?q=${input.value}&units=metric&APPID=${APIKEY}`,
       { mode: 'cors' },
     )
       .then(function (response) { // eslint-disable-line
